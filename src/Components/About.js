@@ -9,11 +9,11 @@ export default function About() {
   return (
 
     <div className='container'>
-      <h1 className='my-3'>About Us</h1>
+      <h1 className='my-3' style={{color:"#0F0326"}}>About Us</h1>
       <div className="accordion" id="accordionExample" >
-        <div className="accordion-item" style={{ border: "1px solid black" }}>
+        <div className="accordion-item" style={{ border: "1px solid #0F0326", borderBottom: "1px solid white" }}>
           <h2 className="accordion-header" id="headingOne">
-            <button className="accordion-button" style={{ backgroundColor: "#96E8BC", color: "#363732" }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button className="accordion-button" style={{ backgroundColor: "#0F0326", color: "white" }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               <strong>About the Developer</strong>
             </button>
           </h2>
@@ -23,9 +23,9 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="accordion-item" style={{ border: "1px solid black" }}>
+        <div className="accordion-item" style={{ border: "1px solid #0F0326", borderBottom: "1px solid white" }}>
           <h2 className="accordion-header" id="headingTwo">
-            <button className="accordion-button collapsed" style={{ backgroundColor: "#96E8BC", color: "#363732" }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button className="accordion-button collapsed" style={{ backgroundColor: "#0F0326", color: "white" }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               <strong>Contact Us</strong>
             </button>
           </h2>
@@ -41,9 +41,9 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="accordion-item" style={{ border: "1px solid black" }}>
+        <div className="accordion-item" style={{ border: "1px solid #0F0326" }}>
           <h2 className="accordion-header" id="headingThree">
-            <button className="accordion-button collapsed" style={{ backgroundColor: "#96E8BC", color: "#363732" }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button className="accordion-button collapsed" style={{ backgroundColor: "#0F0326", color: "white" }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               <strong>Queries</strong>
             </button>
           </h2>
